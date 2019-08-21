@@ -14,3 +14,7 @@ yarn-error.log
 /.idea/
 
 composer.phar
+
+# ide helper
+/.phpstorm.meta.php
+/_ide_helper*
