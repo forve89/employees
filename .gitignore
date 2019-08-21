@@ -12,3 +12,5 @@ yarn-error.log
 
 # for phpstorm
 /.idea/
+
+composer.phar
