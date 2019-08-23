@@ -2,7 +2,7 @@
 
 use Faker\Generator as Faker;
 
-$factory->define(App\BaseEmployees::class, function (Faker $faker) {
+$factory->define(App\Models\BaseEmployees::class, function (Faker $faker) {
     static $cnt = 0;
     $cnt++;
     if($cnt == 1){

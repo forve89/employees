@@ -2,7 +2,7 @@
 
 use Faker\Generator as Faker;
 
-$factory->define(App\BasePositions::class, function (Faker $faker) {
+$factory->define(App\Models\BasePositions::class, function (Faker $faker) {
     return [
         'name' => $faker->unique()->jobTitle,
         'created_at' => 1565201291,
